@@ -1,0 +1,140 @@
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    color: #2a363b;
+    font-size: 18px;
+
+    /* color: #29283d; */
+  }
+  
+  .activeLink {
+    color: #2196f3;
+  }
+
+  .navigationTopContainer {
+    background-color: rgb(1, 1, 41);
+    /* margin-bottom: 20px; */
+    height: 50px;
+    
+  }
+
+  .navItems {
+    display: inline-flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    color: #2a363b;
+    font-size: 18px;
+  }
+
+  .cName{
+    display: flex;
+    margin: 15px;
+
+  }
+
+  .follow {
+    font-size: 10px;
+    margin-right: 10px;
+    margin-left: 15px;
+    color: hsla(0,0%,100%,.6);
+  }
+
+  .socialicon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    fill: hsla(0,0%,100%,.6);
+  }
+
+  .socialicon:focus,
+  .socialicon:hover {
+    fill: #fff;
+  }
+
+  .navigationPrimary {
+    width: 100%;
+
+  }
+
+  .navigationTopContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+  }
+
+  .navigationBottomContainer {
+    height: 55px;
+    margin-top: 20px;
+  }
+
+  .navigationTopLeft {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .navigationTopRight {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .iconButton {
+    width: 16px;
+    height: 16px;
+    margin-right: 0.4rem;
+    fill: #fff;
+
+  }
+
+  .openIcon {
+    width: 10px;
+    height: 10px;
+  }
+
+  .userLoginButton {
+    display: inline-flex;
+    align-items: center;
+    background-color: rgb(1, 1, 41);
+    padding: 8px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    border-width: 1px;
+    border-radius: 4px;
+  }
+
+  .userLoginButton:focus,
+  .userLoginButton:hover {
+    text-decoration: underline;
+  }
+
+  .userRegisterButton {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    border-width: 1px;
+    border-radius: 4px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+
+    background: linear-gradient(90deg,#8c1a17,#cd122d);
+    background-image: linear-gradient(90deg, rgb(140, 26, 23), rgb(205, 18, 45));
+  }
+
+  .searchButton {
+    width: 30px;
+    height: 30px;
+    background-color: #181733;
+    border: none;
+    margin: 0;
+    cursor: pointer;
+  }
