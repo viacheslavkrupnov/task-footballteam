@@ -2,11 +2,11 @@
     display: flex;
     flex-grow: 1;
     position: relative;
-    width: 290px;
+    width: 300px;
     font-weight: 400;
     background-color: transparent;
     margin-right: 30px;
-    padding-left: 25px;
+    padding-left: 30px;
 
     align-items: center;
     transition: height .2s;

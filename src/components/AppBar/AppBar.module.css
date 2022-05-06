@@ -1,15 +1,16 @@
 .header {
-    /* display: block;
-    justify-content: space-between;
+    /* justify-content: space-between;
     align-items: center;
     min-height: 120px;
     margin-bottom: 16px;
     border-bottom: 1px solid #2a363b;
     margin: 0;
-    padding: 0; */
+    padding: 0;  */
   }
 
   .headerContainer {
+    position: relative;
+
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -24,7 +25,7 @@
     display: block;
     position: absolute;
     content: "";
-    bottom: 18.9rem;
+    bottom: -0.5rem;
     left: 0;
     right: 0;
     height: 0.5rem;
