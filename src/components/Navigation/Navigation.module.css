@@ -47,7 +47,7 @@
   .socialicon {
     width: 20px;
     height: 20px;
-    margin-right: 10px;
+    margin-right: 15px;
     fill: hsla(0,0%,100%,.6);
   }
 
@@ -64,12 +64,13 @@
   .navigationTopContainer {
     display: flex;
     justify-content: space-between;
-    width: 850px;
+     margin-right: 20px;
   }
 
   .navigationBottomContainer {
     height: 55px;
     margin-top: 20px;
+    margin-left: 20px;
   }
 
   .navigationTopLeft {
