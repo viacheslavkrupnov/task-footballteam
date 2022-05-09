@@ -1,12 +1,26 @@
 
-.pageWraper {
+  .pageWraper {
     margin-top: 133px;
     background-color: #181733;
+
+   
 }
 
-.movieTitle {
+.pageTitle {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
 }
+  
+.imageContainer {
+    display: flex;
+}
+
+.wrapper{
+    display: flex;
+    width: 500px;
+    height: 350px;
+    border:1px solid black;
+  }
+  

@@ -16,7 +16,7 @@ function App() {
       <Router>
         <AppBar />
          <Routes>
-          <Route exact path="/en/" element={<HomePage/>}/>
+          <Route exact path="/" element={<HomePage/>}/>
 
           </Routes>
         </Router>
