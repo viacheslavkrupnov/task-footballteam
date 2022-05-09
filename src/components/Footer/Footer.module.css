@@ -1,0 +1,132 @@
+.footer {
+    background: #181733;
+    position: relative;
+    overflow: hidden;
+    z-index: 30;
+    padding-bottom: 30px;
+}
+
+.footer::after {
+    position: absolute;
+    content: "";
+    bottom: 0.3;
+    left: 0;
+    width: 100%;
+    height: 1rem;
+    background: linear-gradient(90deg,#cd122d 0,#154284);
+    background-image: linear-gradient(90deg, rgb(205, 18, 45) 0px, rgb(21, 66, 132));
+}
+
+.sitemapNav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 4.25rem;
+}
+
+.sitemapTitle {
+    font-family: fcb-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 17px;
+    line-height: 2.2rem;
+}
+
+.navList {
+    margin-top: 30px;
+    list-style-type: none;
+}
+
+.navLink {
+    height: 100%;
+    display: inline-block;
+    font-family: fcb-light,Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 2.2rem;
+    padding-right: 1rem;
+    color: hsla(0,0%,100%,.75);
+    text-decoration: none;
+    transition: color .2s ease;
+}
+
+.navLink:focus,
+.navLink:hover {
+    text-decoration: underline;
+}
+
+.footerCorporate{
+    padding-top: 4.6rem;
+}
+
+.footerCorporateLinksLogo{
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+.icon {
+    fill: #fff;
+    width: 210px;
+}
+
+.footerCorporateLinksBottom {
+    display: flex;
+    justify-content:flex-start;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.linkCopyright {
+    font-family: fcb-light,Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: 400;
+    color: hsla(0,0%,100%,.75);
+    height: 1.6rem;
+    line-height: 1.6rem;
+    font-size: 13px;
+    margin-left: 15px;
+    margin-right: 230px;
+}
+
+.linkCopyrightSpan {
+    font-family: fcb-semi-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+.corporateLinksGroup{
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.corporateLinkItems{
+    display: flex;
+    align-items: center;
+    border-right: 0.05rem solid hsla(0,0%,100%,.75);
+    top: 0.4rem;
+    height: 10px;
+    text-decoration: solid #fff;
+}
+
+.corporateLinkItemsLast {
+    display: flex;
+    align-items: center;
+    top: 0.4rem;
+    height: 15px;
+}
+
+.linkItem {
+    font-family: fcb-light,Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: 400;
+    color: hsla(0,0%,100%,.75);
+    line-height: 1.4rem;
+    font-size: 11px;
+    text-decoration: none;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.linkItem:hover,
+.linkItem:focus{
+    text-decoration: underline #fff;
+}
+

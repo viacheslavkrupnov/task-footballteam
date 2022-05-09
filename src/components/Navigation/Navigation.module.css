@@ -6,7 +6,6 @@
     font-weight: 500;
     color: #2a363b;
     font-size: 18px;
-    /* color: #29283d; */
   }
   
   .activeLink {
@@ -15,9 +14,7 @@
 
   .navigationTopContainer {
     background-color: rgb(1, 1, 41);
-    /* margin-bottom: 20px; */
     height: 50px;
-    
   }
 
   .navItems {
@@ -44,8 +41,8 @@
   }
 
   .socialicon {
-    width: 20px;
-    height: 20px;
+    width: 17px;
+    height: 17px;
     margin-right: 15px;
     fill: hsla(0,0%,100%,.6);
   }
@@ -139,3 +136,4 @@
     border: none;
     cursor: pointer;
   }
+

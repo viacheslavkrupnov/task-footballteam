@@ -1,11 +1,11 @@
 import React from "react";
-import Partners from "../../Partners";
-
 // import { useState, useEffect } from 'react';
 // import { Link, useRouteMatch, useLocation } from 'react-router-dom';
 import s from './HomePage.module.css';
 import images from "../../Images/images"; 
 import ImageSlider from "../../Images/imageSlider";
+import Partners from "../../Partners";
+import Footer from "../../Footer";
 
 export default function HomePage() {
   return (
@@ -14,6 +14,7 @@ export default function HomePage() {
           <div className={s.obernul}>
             <ImageSlider images={images}/> 
             <Partners/>
+            <Footer/>
           </div>
       </div>      
     </>
